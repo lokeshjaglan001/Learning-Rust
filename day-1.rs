@@ -1,7 +1,7 @@
 use std::io;
 use std::string::String;
 fn main(){
-// how to print something in rust
+// how to print in rust
   println!("Hello world !");
 // loop in rust
   for i in 0..50{
