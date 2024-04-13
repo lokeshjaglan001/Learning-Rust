@@ -1,3 +1,5 @@
+// Today we created a calculator program in which user will enter the bigger number and smaller number respectively and then the program will return the values.
+
 use std::io;
 
 fn all(a:u32 ,b: u32){
