@@ -19,7 +19,7 @@ fn main(){
   io::stdin().read_line(& mut inp).expect("Failed to read the number");
   let minutes : u32 = inp.trim().parse().expect("Please enter the number !");
   fn second(n : u32){
-  println!("{} minutes are equivalent to {} hours and {} minutes", n, n/60 , n-60);
+  println!("{} minutes are equivalent to {} hours and {} minutes", n, n/60 , n%60);
   }
   
   second(minutes);
